@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "status": "review-and-adapter-required",
+  "sources": [
+    {
+      "id": "pdmx-v9",
+      "source_kind": "zenodo-archive",
+      "record_url": "https://zenodo.org/records/15571083",
+      "doi": "10.5281/zenodo.15571083",
+      "record_version": "v9",
+      "deposit_license": "CC-BY-4.0",
+      "score_rights_statement": "Public-domain MusicXML with per-item metadata",
+      "commercial_use": "permitted-when-item-metadata-confirms",
+      "redistribution_permitted": true,
+      "derivatives_permitted": true,
+      "attribution_required": true,
+      "mxl_archive": {
+        "name": "mxl.tar.gz",
+        "size_bytes": 1894335797,
+        "checksum": "md5:49ffd75ecf5489c0be6d41182eb11ff7"
+      },
+      "metadata_file": {
+        "name": "PDMX.csv",
+        "size_bytes": 225399738,
+        "checksum": "md5:30392ccf38bb63ce70e7afae70f9c88c"
+      },
+      "required_filters": [
+        "mxl path is present",
+        "license_conflict is false",
+        "record belongs to no_license_conflict",
+        "prefer intersection with all_valid"
+      ],
+      "blocked_reason": "Requires a resumable Zenodo/archive adapter and pre-extraction filtering; never ingest the reported 31,221 licence-conflict records."
+    },
+    {
+      "id": "openscore-string-quartets",
+      "source_kind": "github-musescore-conversion",
+      "repository": "OpenScore/StringQuartets",
+      "score_license": "CC0-1.0",
+      "commercial_use": "permitted",
+      "redistribution_permitted": true,
+      "derivatives_permitted": true,
+      "attribution_required": false,
+      "source_extension": ".mscx",
+      "target_extension": ".mxl",
+      "blocked_reason": "Repository scores require deterministic conversion to MusicXML with a pinned MuseScore release."
+    },
+    {
+      "id": "when-in-rome",
+      "source_kind": "github-mixed-rights",
+      "repository": "MarkGotham/When-in-Rome",
+      "rights_decision": "review",
+      "blocked_reason": "Underlying score licences vary; repository-level CC BY-SA statements do not blanket-license every local or remote score."
+    },
+    {
+      "id": "emmsap-xmldata",
+      "source_kind": "github-research-only",
+      "repository": "cuthbertLab/emmsap",
+      "source_path": "xmldata/",
+      "commit_sha": "521a41a6747f6c837dc3115bd8849e71bb7e1ba1",
+      "score_license": "BSD-3-Clause with scholarly-fair-use caveat",
+      "rights_decision": "research-only",
+      "public_release_eligible": false,
+      "commercial_use": "unclear",
+      "redistribution_permitted": false,
+      "derivatives_permitted_for_transformative_research": true,
+      "attribution_required": true,
+      "blocked_reason": "EMMSAP limits some encodings to transformative and research use and warns against performances or republication where third-party transcription, editor, or publisher rights may apply."
+    }
+  ]
+}

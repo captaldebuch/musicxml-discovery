@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "MusicXML Discovery: Rights-Aware GitHub Harvesting and Tonal Polyphony Screening"
+type: software
+version: 0.1.0
+date-released: 2026-07-30
+authors:
+  - family-names: Fresquet
+    given-names: Xavier
+    orcid: "https://orcid.org/0000-0001-8362-9485"
+repository-code: "https://github.com/captaldebuch/musicxml-discovery"
+url: "https://github.com/captaldebuch/musicxml-discovery"
+license: MIT
+keywords:
+  - MusicXML
+  - symbolic music
+  - dataset discovery
+  - computational musicology
+  - tonality
+  - polyphony
+abstract: >-
+  A dependency-light command-line workflow for discovering MusicXML files in
+  rights-approved GitHub repositories, preserving commit-pinned provenance and
+  licensing evidence and reuse constraints, including non-commercial sources,
+  and screening candidates for tonal content and concurrent encoded voices.

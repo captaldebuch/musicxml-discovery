@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "policy": {
+    "scope": "Redistributable tonal symbolic scores with at least two concurrently sounding encoded voices for non-commercial research",
+    "intended_use": "non-commercial research, education, analysis, and corpus publication",
+    "release_rule": "Candidates remain staging-only until downstream identity and rights review.",
+    "accepted_license_classes": [
+      "public-domain-or-CC0",
+      "attribution",
+      "share-alike",
+      "non-commercial",
+      "non-commercial-share-alike"
+    ],
+    "excluded_license_classes": [
+      "no-license",
+      "unknown",
+      "no-derivatives"
+    ]
+  },
+  "sources": [
+    {
+      "id": "openscore-lieder",
+      "repository": "OpenScore/Lieder",
+      "ref": "6b2dc542ce2e8aa4b78c8ee62103b210efc07015",
+      "include_prefixes": [
+        "scores/"
+      ],
+      "exclude_prefixes": [],
+      "extensions": [
+        ".mxl"
+      ],
+      "rights_decision": "approved",
+      "score_license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "derivatives_permitted": true,
+      "commercial_use": "permitted",
+      "attribution_required": false,
+      "expected_github_spdx": [
+        "CC0-1.0"
+      ],
+      "license_path": "LICENSE.txt",
+      "rights_evidence_path": "README.md",
+      "rights_evidence_fragment": "#license-and-acknowledgement",
+      "attribution": "OpenScore Lieder Corpus (CC0); attribution requested for public-facing use",
+      "selection_rationale": "Curated Western art-song corpus with an explicit score-level CC0 statement and MusicXML supplied as MXL. Every file still passes tonal and concurrent-voice checks."
+    },
+    {
+      "id": "asap-v1.1",
+      "repository": "fosfrancesco/asap-dataset",
+      "ref": "fad8d1e8078d0ae47ad2f280b5d022bd2de24784",
+      "include_prefixes": [],
+      "exclude_prefixes": [
+        "util/"
+      ],
+      "extensions": [
+        ".musicxml"
+      ],
+      "rights_decision": "approved",
+      "score_license": "CC-BY-NC-SA-4.0",
+      "redistribution_permitted": true,
+      "derivatives_permitted": true,
+      "commercial_use": "prohibited",
+      "attribution_required": true,
+      "expected_github_spdx": [
+        "CC-BY-NC-SA-4.0",
+        "NOASSERTION"
+      ],
+      "license_path": "LICENSE.md",
+      "rights_evidence_path": "README.md",
+      "rights_evidence_fragment": "#license",
+      "license_assessment_note": "GitHub's repository classifier reports NOASSERTION for LICENSE.md; the repository README and license file explicitly state CC BY-NC-SA 4.0.",
+      "attribution": "ASAP dataset by Francesco Foscarin, Andrew McLeod, Philippe Rigaux, Florent Jacquemard, and Masahiko Sakai; cite the ISMIR 2020 paper; CC BY-NC-SA 4.0",
+      "selection_rationale": "The repository contains MusicXML scores and explicitly releases the dataset under CC BY-NC-SA 4.0. It is eligible only for non-commercial use, requires attribution, and carries share-alike obligations."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "MusicXML Discovery",
+  "description": "Rights-aware, commit-pinned GitHub discovery with explicit non-commercial reuse conditions and deterministic tonal/polyphonic screening for MusicXML scores.",
+  "version": "0.1.0",
+  "dateCreated": "2026-07-30",
+  "dateModified": "2026-07-30",
+  "datePublished": "2026-07-30",
+  "codeRepository": "https://github.com/captaldebuch/musicxml-discovery",
+  "issueTracker": "https://github.com/captaldebuch/musicxml-discovery/issues",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "programmingLanguage": "Python 3",
+  "runtimePlatform": "Python >=3.10",
+  "applicationCategory": "Research software",
+  "keywords": [
+    "MusicXML",
+    "symbolic music",
+    "computational musicology",
+    "dataset discovery",
+    "tonality",
+    "polyphony"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Xavier",
+      "familyName": "Fresquet",
+      "@id": "https://orcid.org/0000-0001-8362-9485",
+      "affiliation": [
+        {"@type": "Organization", "name": "SCAI, Sorbonne Université"},
+        {"@type": "Organization", "name": "SAFIR, Sorbonne Abu Dhabi for Innovation and Research, Sorbonne Abu Dhabi"}
+      ]
+    }
+  ],
+  "funder": {
+    "@type": "Organization",
+    "name": "Agence nationale de la recherche"
+  },
+  "funding": "ANR-24-IAS1-0001 MELODY",
+  "developmentStatus": "active",
+  "isAccessibleForFree": true
+}
